@@ -29,7 +29,23 @@ console.log(a); //[1, 2, 3]
 			      so this remote is my and rahul, one day rahul break the remote so this remote is both guy
 				   so me and rahul both not access TV.
 			   }
-*/         
+*/ 
+
+//object
+let ghadi = {
+  brand:"kenneth cole",
+  price:"16k",
+  color:"silver",
+  type:"automatic",
+  digital: false,
+  kuchbolo:function(){
+         }
+}
+
+//function
+function chahcha(a,b,c){
+  console.log(a + b + c);
+}
 
 
 
@@ -39,4 +55,27 @@ js is dynamically type language beacuse
   determined by the value they hold at runtime and can change throughout the program as we 
   assign different values to them 
 */
+
+//****************************************************************** 
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myname = "krinesh"
+let nickname = myname
+nickname = "kano"
+
+console.log(myname);
+console.log(nickname);
+
+
+let userone = {
+   email: "user@gmail.com",
+   upi: "user@bl"
+}
+
+let usertwo = userone
+usertwo.email = "krinesh@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
 
