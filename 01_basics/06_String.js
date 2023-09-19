@@ -46,4 +46,7 @@ console.log(newStringTwo.padEnd(11,'kri'));
 
 console.log(newStringTwo.repeat(2));
 
-
+/*
+It's important to know that in JavaScript,
+strings are immutable. This means that once a string is created, its contents cannot be changed.
+*/
